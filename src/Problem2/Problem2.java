@@ -8,7 +8,7 @@ public class Problem2 {
 
     public static List<Object> combineAlternating(List<?> list1, List<?> list2) {
         List<Object> result = new ArrayList<>();
-        int size = Math.min(list1.size(), list2.size()); // Ensure we don't go out of bounds
+        int size = Math.min(list1.size(), list2.size());
 
         for (int i = 0; i < size; i++) {
             result.add(list1.get(i));
